@@ -139,7 +139,43 @@ section {
     border-radius: 5px;
     margin-right: 10px;
 }
+/* Дополнения к стилям */
+.timeline-section {
+    padding: 50px 0;
+    background: #f9f9f9;
+}
 
+.timeline-item {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 15px;
+    border-left: 3px solid #2c3e50;
+    position: relative;
+}
+
+.timeline-date {
+    font-weight: bold;
+    color: #3498db;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.timeline-date:hover {
+    color: #2980b9;
+}
+
+.timeline-content {
+    display: none;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-top: 10px;
+}
+
+.active .timeline-content {
+    display: block;
+}
 /* Подвал */
 footer {
     background-color: #333;
